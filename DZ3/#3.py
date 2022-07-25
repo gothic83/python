@@ -69,6 +69,5 @@ def fibonacci(n):
         fib.insert(0, a)
         a, b = b, a - b
     return fib
-fib = fibonacci(n)
 print(fibonacci(n))
 
